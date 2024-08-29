@@ -1,0 +1,55 @@
+{
+  "name": "@antisoda/prettier-config",
+  "version": "1.0.1",
+  "description": "A shareable Prettier preset configuration",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/antis0da/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/antis0da/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Andrea Di Marco <andrea.dimarco@me.com>",
+  "sideEffects": false,
+  "type": "module",
+  "main": "dist/prettier.config.cjs",
+  "module": "dist/prettier.config.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "rollup --config",
+    "clean": "git clean dist -X --force",
+    "coverage": "vitest run --coverage",
+    "format": "prettier . --write",
+    "release": "changeset publish",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "prettier-plugin-organize-imports": "4.0.0",
+    "prettier-plugin-packagejson": "2.5.2"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.7",
+    "@commitlint/cli": "19.4.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@vitest/coverage-v8": "2.0.5",
+    "lefthook": "1.7.14",
+    "prettier": "3.3.3",
+    "rollup": "4.21.1",
+    "vitest": "2.0.5"
+  },
+  "peerDependencies": {
+    "prettier": ">= 3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

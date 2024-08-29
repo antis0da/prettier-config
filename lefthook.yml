@@ -1,0 +1,10 @@
+commit-msg:
+  commands:
+    commitlint:
+      run: npx --no-install commitlint --edit
+pre-commit:
+  commands:
+    format:
+      run: npm run format
+    test:
+      run: npm run test
