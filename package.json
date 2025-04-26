@@ -17,14 +17,29 @@
   "author": "Andrea Di Marco <andrea.dimarco@me.com>",
   "sideEffects": false,
   "type": "module",
+  "exports": [
+    {
+      "import": {
+        "default": "./dist/prettier.config.mjs",
+        "types": "./dist/prettier.config.d.ts"
+      },
+      "require": {
+        "default": "./dist/prettier.config.cjs",
+        "types": "./dist/prettier.config.d.ts"
+      }
+    }
+  ],
   "main": "dist/prettier.config.cjs",
   "module": "dist/prettier.config.mjs",
+  "types": "dist/prettier.config.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "rollup --config",
+    "build": "npm run build:lib && npm run build:types",
+    "build:lib": "rollup --config",
+    "build:types": "tsc --project tsconfig.json",
     "clean": "git clean dist -X --force",
     "coverage": "vitest run --coverage",
     "format": "prettier . --write",
@@ -45,6 +60,7 @@
     "lefthook": "1.11.11",
     "prettier": "3.5.3",
     "rollup": "4.40.0",
+    "typescript": "5.8.3",
     "vitest": "3.1.2"
   },
   "peerDependencies": {
