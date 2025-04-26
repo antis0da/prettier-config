@@ -44,7 +44,9 @@
     "coverage": "vitest run --coverage",
     "format": "prettier . --write",
     "release": "changeset publish",
-    "test": "vitest run"
+    "test": "vitest run",
+    "version": "changeset version",
+    "postversion": "npm i --package-lock-only"
   },
   "dependencies": {
     "prettier-plugin-css-order": "2.1.2",
