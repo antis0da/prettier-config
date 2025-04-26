@@ -7,7 +7,7 @@ export default {
     },
     {
       file: 'dist/prettier.config.mjs',
-      format: 'es',
+      format: 'esm',
     },
   ],
 }
