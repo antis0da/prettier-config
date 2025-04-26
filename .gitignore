@@ -45,3 +45,6 @@ jspm_packages/
 
 # Rollup artifacts
 dist
+
+# Vale styles
+.vale-styles
