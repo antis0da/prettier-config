@@ -1,5 +1,19 @@
 # @antisoda/prettier-config
 
+## 1.2.0
+
+### Minor Changes
+
+- [#7](https://github.com/antis0da/prettier-config/pull/7) [`201e1c6`](https://github.com/antis0da/prettier-config/commit/201e1c6801b98d1f04b46fda5b7aafd0e6b6a1fb) Thanks [@antis0da](https://github.com/antis0da)! - export types
+
+### Patch Changes
+
+- [#5](https://github.com/antis0da/prettier-config/pull/5) [`253ee25`](https://github.com/antis0da/prettier-config/commit/253ee256a79afe66810053db1ed50ce494332a55) Thanks [@antis0da](https://github.com/antis0da)! - update dependencies and devDependencies
+
+- [#4](https://github.com/antis0da/prettier-config/pull/4) [`da4292e`](https://github.com/antis0da/prettier-config/commit/da4292ec3eeba2868b91d73e9184f044657a0ca4) Thanks [@antis0da](https://github.com/antis0da)! - update Node.js to 22.14.0
+
+- [#3](https://github.com/antis0da/prettier-config/pull/3) [`4cc4240`](https://github.com/antis0da/prettier-config/commit/4cc42402c466a40241fa98bddff325c34d6419b0) Thanks [@antis0da](https://github.com/antis0da)! - add Vale style guide support
+
 ## 1.1.0
 
 ### Minor Changes
