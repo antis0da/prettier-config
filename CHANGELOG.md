@@ -1,5 +1,11 @@
 # @antisoda/prettier-config
 
+## 1.2.2
+
+### Patch Changes
+
+- [#14](https://github.com/antis0da/prettier-config/pull/14) [`ab69142`](https://github.com/antis0da/prettier-config/commit/ab69142f0aa0ff31827dbe33449d890bb7150507) Thanks [@antis0da](https://github.com/antis0da)! - fix release scrirpt
+
 ## 1.2.1
 
 ### Patch Changes
