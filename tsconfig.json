@@ -1,19 +1,10 @@
-// tsconfig.json
 {
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": false,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "dist",
-    "rootDir": "lib",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "target": "ESNext",
-    "lib": ["ESNext"],
-    "skipLibCheck": true
+    "rootDir": "lib"
   },
   "include": ["lib/**/*.js"],
   "exclude": ["lib/**/*.spec.js"]
