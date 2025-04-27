@@ -1,5 +1,11 @@
 # @antisoda/prettier-config
 
+## 1.2.1
+
+### Patch Changes
+
+- [#12](https://github.com/antis0da/prettier-config/pull/12) [`71d9ca0`](https://github.com/antis0da/prettier-config/commit/71d9ca07cb6c02d8a5f4983c1218639303582d42) Thanks [@antis0da](https://github.com/antis0da)! - extend support to \*.yaml files
+
 ## 1.2.0
 
 ### Minor Changes
