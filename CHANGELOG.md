@@ -1,5 +1,11 @@
 # @antisoda/prettier-config
 
+## 1.2.3
+
+### Patch Changes
+
+- [#18](https://github.com/antis0da/prettier-config/pull/18) [`a5ea618`](https://github.com/antis0da/prettier-config/commit/a5ea61870b2afb7c609190297051a8a1628bcc0d) Thanks [@antis0da](https://github.com/antis0da)! - update release workflow
+
 ## 1.2.2
 
 ### Patch Changes
