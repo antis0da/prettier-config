@@ -1,5 +1,11 @@
 # @antisoda/prettier-config
 
+## 1.2.4
+
+### Patch Changes
+
+- [#22](https://github.com/antis0da/prettier-config/pull/22) [`ca826f1`](https://github.com/antis0da/prettier-config/commit/ca826f1d38bea084ec73b3ebde8e61fb46bcfde4) Thanks [@antis0da](https://github.com/antis0da)! - update dependencies to use caret ranges
+
 ## 1.2.3
 
 ### Patch Changes
